@@ -19,7 +19,7 @@ A Streamlit application that compares Traditional RAG (Retrieval-Augmented Gener
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Praneeth16/rag-comparison-app.git)
+git clone https://github.com/Praneeth16/rag-comparison-app.git
 cd rag-comparison-app
 ```
 
