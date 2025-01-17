@@ -1,0 +1,9 @@
+streamlit==1.32.0
+langchain==0.1.12
+crewai==0.11.0
+pypdf==4.0.1
+chromadb==0.4.24
+openai==1.13.3
+guardrails-ai==0.4.1
+opik==0.0.5
+python-dotenv==1.0.1 
