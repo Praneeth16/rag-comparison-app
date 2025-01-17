@@ -35,7 +35,7 @@ OPIK_API_KEY=your_opik_api_key`
 ## Usage
 
 1. Start the Streamlit app:
-```streamlit run app.py`
+```streamlit run app.py```
 
 2. Upload a PDF document using the sidebar
 
