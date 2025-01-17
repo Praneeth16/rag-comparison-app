@@ -18,19 +18,19 @@ A Streamlit application that compares Traditional RAG (Retrieval-Augmented Gener
 ## Installation
 
 1. Clone the repository:
-```git clone <repository-url>
-cd rag-comparison-app`
+```git clone https://github.com/Praneeth16/rag-comparison-app.git)```
+```cd rag-comparison-app```
 
 2. Create and activate a virtual environment:
-`python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate`
+```python -m venv venv```
+```source venv/bin/activate  # On Windows: venv\Scripts\activate```
 
 3. Install dependencies:
 ```pip install -r requirements.txt`
 
 4. Create a `.env` file in the project root and add your API keys:
-```OPENAI_API_KEY=your_openai_api_key
-OPIK_API_KEY=your_opik_api_key`
+```OPENAI_API_KEY=your_openai_api_key```
+```OPIK_API_KEY=your_opik_api_key```
 
 ## Usage
 
@@ -45,7 +45,8 @@ OPIK_API_KEY=your_opik_api_key`
 
 ## Project Structure
 
-```rag-comparison-app/
+```
+rag-comparison-app/
 ├── app.py                      # Main Streamlit application
 ├── requirements.txt            # Project dependencies
 ├── .env                       # Environment variables
@@ -57,7 +58,8 @@ OPIK_API_KEY=your_opik_api_key`
 │   ├── agentic_rag_handler.py # Agentic RAG implementation
 │   ├── tracking.py            # Interaction tracking
 │   └── guardrails.py          # Response quality control
-└── vector_store_db/           # Vector store database directory```
+└── vector_store_db/           # Vector store database directory
+```
 
 ## Features in Detail
 
