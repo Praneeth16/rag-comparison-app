@@ -18,8 +18,10 @@ A Streamlit application that compares Traditional RAG (Retrieval-Augmented Gener
 ## Installation
 
 1. Clone the repository:
-```git clone https://github.com/Praneeth16/rag-comparison-app.git)```
-```cd rag-comparison-app```
+```bash
+git clone https://github.com/Praneeth16/rag-comparison-app.git)
+cd rag-comparison-app
+```
 
 2. Create and activate a virtual environment:
 ```bash
