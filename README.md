@@ -22,20 +22,28 @@ A Streamlit application that compares Traditional RAG (Retrieval-Augmented Gener
 ```cd rag-comparison-app```
 
 2. Create and activate a virtual environment:
-```python -m venv venv```
-```source venv/bin/activate  # On Windows: venv\Scripts\activate```
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-3. Install dependencies:
-```pip install -r requirements.txt`
+4. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-4. Create a `.env` file in the project root and add your API keys:
-```OPENAI_API_KEY=your_openai_api_key```
-```OPIK_API_KEY=your_opik_api_key```
+5. Create a `.env` file in the project root and add your API keys:
+```bash
+OPENAI_API_KEY=your_openai_api_key
+OPIK_API_KEY=your_opik_api_key
+```
 
 ## Usage
 
 1. Start the Streamlit app:
-```streamlit run app.py```
+```bash
+streamlit run app.py
+```
 
 2. Upload a PDF document using the sidebar
 
